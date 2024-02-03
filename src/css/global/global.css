@@ -1,6 +1,7 @@
 /* COMPONENTS */
 @import url(./components/button.css);
 @import url(./components/container.css);
+@import url(./components/link.css);
 @import url(./typography/typography.css);
 @import url(./colors/colors.css);
 
@@ -8,7 +9,7 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  height: 2000px;
+  height: 4000px;
 }
 
 ul {
