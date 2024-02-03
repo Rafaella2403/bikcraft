@@ -2,13 +2,6 @@
   padding: 60px 0 120px 0;
 }
 
-.bicycles h2 {
-  padding: 0px 20px 0px 20px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0px auto 40px auto;
-}
-
 .bicycles span {
   color: var(--color-p10);
 }
