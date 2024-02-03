@@ -15,7 +15,7 @@
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  overflow: hidden;
+  overflow: auto;
   grid-template-columns:  repeat(4, 1fr);
 }
 
@@ -58,5 +58,23 @@
 
   .partners li:nth-child(odd) {
     border-left: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .partners ul {
+    grid-template-columns: 1fr;
+  }
+  .partners li {
+    border-left: none;
+    border-top: 2px solid var(--color-02);
+  }
+
+  .partners li:first-child {
+    border-top: none;
+  }
+
+  .partners li {
+    padding: 16px;
   }
 }
