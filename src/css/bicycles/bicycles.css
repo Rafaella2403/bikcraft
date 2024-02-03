@@ -16,11 +16,15 @@
 .bicycles ul {
   display: flex;
   gap: 40px;
-  padding: 0px 20px;
+  padding: 0px 20px 20px;
   max-width: 1400px;
   margin: 0px auto 0px auto;
+  overflow-x: auto;
 }
 
+.bicycles  ul li {
+  min-width: 280px;
+}
 
 .bicycles  ul li span{
   color: var(--color-08);
@@ -49,4 +53,18 @@
   margin-right: 8px;
   display: inline-block;
   background-color: var(--color-p10);
+}
+
+.bicycles ul li a:hover h3::before {
+  width: 24px;
+  transition: 0.5s;
+}
+
+@media (max-width: 800px) {
+  .bicycles {
+    padding-bottom: 60px;
+  }
+  .bicycles ul {
+    gap: 20px;
+  }
 }
