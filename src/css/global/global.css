@@ -1,7 +1,7 @@
 /* COMPONENTS */
 @import url(./components/button.css);
-@import url(./components/typography.css);
-@import url(./colors/color.css);
+@import url(./typography/typography.css);
+@import url(./colors/colors.css);
 
 /* RESET INITIAL STYLES */
 body {
@@ -20,12 +20,14 @@ a {
   color: inherit;
 }
 
-img {
+img[src$=".jpg"] {
   max-width: 100%;
   display: block;
   border-radius: 4px;
 }
 
-h1, ul, p {
+
+
+h1, h2, h3, ul, p {
   margin: 0px;
 }
