@@ -41,16 +41,6 @@
 }
 
 /* INTRODUCTION - RESPONSIVENESS */
-@media (max-width: 1200px) {
-  .introduction h1 {
-    font-size: 48px;
-  }
-
-  .introduction p {
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 800px) {
   .introduction-bg {
     background-color: var(--color-11);
@@ -64,7 +54,6 @@
   }
 
   .introduction h1 {
-    font-size: 32px;
     margin-bottom: 16px;
   }
 
