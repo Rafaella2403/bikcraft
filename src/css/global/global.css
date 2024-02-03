@@ -1,5 +1,7 @@
 /* COMPONENTS */
 @import url(./components/button.css);
+@import url(./components/typography.css);
+@import url(./colors/color.css);
 
 /* RESET INITIAL STYLES */
 body {
