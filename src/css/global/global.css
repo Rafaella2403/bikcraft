@@ -7,13 +7,13 @@
 
 /* RESET INITIAL STYLES */
 body {
-  margin: 0px;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   height: 4000px;
 }
 
 ul {
-  padding: 0px;
+  padding: 0;
   list-style: none;
 }
 
@@ -31,5 +31,5 @@ img[src$=".jpg"] {
 
 
 h1, h2, h3, ul, p {
-  margin: 0px;
+  margin: 0;
 }

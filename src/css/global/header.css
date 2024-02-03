@@ -19,7 +19,7 @@
 }
 
 .header-menu a {
-  padding: 16px 0px;
+  padding: 16px 0;
   display: inline-block;
   color: var(--color-00);
   position: relative;
