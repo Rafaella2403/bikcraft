@@ -1,93 +1,93 @@
-.technology-bg {
+.home-technology-bg {
   background-color: var(--color-11);
   box-shadow: inset 0 80px var(--color-00), inset 0 -80px var(--color-00);
 }
 
-.technology {
+.home-technology {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
 
-.technology-img img {
+.home-technology-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: left;
 }
  
-.technology-content {
+.home-technology-content {
   padding: 160px 0 120px 0;
 }
 
-.technology-content > span {
+.home-technology-content > span {
   color: var(--color-05);
   margin-bottom: 20px;
   display: block;
 }
 
-.technology-content h2 {
+.home-technology-content h2 {
   color: var(--color-00);
   margin-bottom: 32px;
 }
 
-.technology-content h2 span {
+.home-technology-content h2 span {
   color: var(--color-p10);
 }
 
-.technology-content p {
+.home-technology-content p {
   color: var(--color-05);
   margin-bottom: 32px;
 }
 
-.technology-content a {
+.home-technology-content a {
   margin-bottom: 80px;
 }
 
-.technology-content h3 {
+.home-technology-content h3 {
   color: var(--color-00);
 }
 
-.technology-content-benefts {
+.home-technology-content-benefts {
   display: flex;
   gap: 40px;
 }
 
-.technology-content-benefts h3 {
+.home-technology-content-benefts h3 {
   margin-bottom: 8px;
   width: max-content;
 }
 
-.technology-content-benefts img {
+.home-technology-content-benefts img {
   width: 24px;
   height: 24px;
   margin-bottom: 8px;
 }
 
 @media (max-width: 800px) {
-  .technology-bg {
+  .home-technology-bg {
     box-shadow: initial;
   }
 
-  .technology {
+  .home-technology {
     grid-template-columns: 1fr;
   }
 
-  .technology-img {
+  .home-technology-img {
     display: none;
   }
 
-  .technology-content {
+  .home-technology-content {
     padding: 60px 0 60px 0;
   }
 
-  .technology-content a {
+  .home-technology-content a {
     padding-bottom: 60px;
   }
 }
 
 @media (max-width: 600px) {
-  .technology-content-benefts {
+  .home-technology-content-benefts {
     flex-direction: column;
   }
 }

@@ -1,12 +1,12 @@
-.bicycles {
+.home-bicycles-list {
   padding: 60px 0 120px 0;
 }
 
-.bicycles span {
+.home-bicycles-list span {
   color: var(--color-p10);
 }
 
-.bicycles ul {
+.home-bicycles-list ul {
   display: flex;
   gap: 40px;
   padding: 0 20px 20px;
@@ -15,31 +15,31 @@
   overflow-x: auto;
 }
 
-.bicycles  ul li {
+.home-bicycles-list  ul li {
   min-width: 280px;
 }
 
-.bicycles  ul li span{
+.home-bicycles-list  ul li span{
   color: var(--color-08);
   padding-left: 20px;
 
 }
 
-.bicycles ul li a {
+.home-bicycles-list ul li a {
   display: block;
 }
 
-.bicycles ul li img {
+.home-bicycles-list ul li img {
   margin-bottom: 16px;
 }
 
-.bicycles ul li h3 {
+.home-bicycles-list ul li h3 {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.bicycles ul li h3::before {
+.home-bicycles-list ul li h3::before {
   content: "";
   width: 12px;
   height: 8px;
@@ -48,16 +48,16 @@
   background-color: var(--color-p10);
 }
 
-.bicycles ul li a:hover h3::before {
+.home-bicycles-list ul li a:hover h3::before {
   width: 24px;
   transition: 0.5s;
 }
 
 @media (max-width: 800px) {
-  .bicycles {
+  .home-bicycles-list {
     padding-bottom: 60px;
   }
-  .bicycles ul {
+  .home-bicycles-list ul {
     gap: 20px;
   }
 }
