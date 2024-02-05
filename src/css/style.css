@@ -1,8 +1,4 @@
 @import url(./global/global.css);
 @import url(./global/header.css);
-@import url(./home/introduction.css);
-@import url(./home/techology.css);
-@import url(./home/bicycles.css);
-@import url(./home/testimonial.css);
-@import url(./home/partners.css);
-@import url(./home/insurance.css);
+@import url(./home/index.css);
+@import url(./global/footer.css);
