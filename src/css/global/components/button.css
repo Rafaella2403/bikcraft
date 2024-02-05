@@ -8,13 +8,17 @@
   background: linear-gradient(var(--color-p8), var(--color-p7));
 }
 
-.button.secundary {
-  color: var(--color-02);
-  background-color: var(--color-10);
-}
-
 .button:hover {
   background: linear-gradient(var(--color-p9), var(--color-p4));
+}
+
+.button.secundary {
+  color: var(--color-02);
+  background: var(--color-10);
+}
+
+.button.secundary:hover {
+  background: var(--color-09);
 }
 
 @media (max-width: 600px) {
