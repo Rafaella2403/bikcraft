@@ -1,4 +1,5 @@
-@import url(./nimbus.css);
+@import url(./bicycle.css);
+@import url(./insurance.css);
 
 .bicycles-bg {
   background: linear-gradient(to right, var(--color-00) 30%, var(--color-11) 0%);

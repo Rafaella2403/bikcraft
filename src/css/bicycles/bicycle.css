@@ -11,6 +11,14 @@
   text-transform: uppercase;
 }
 
+#bicycle .home-bicycles-list h2 {
+  padding-bottom: 40px;
+}
+
+#bicycle .home-bicycles-list ul {
+  padding: 0 0 20px 0;
+}
+
 .bicycle-image {
   display: flex;
   flex-wrap: wrap;
