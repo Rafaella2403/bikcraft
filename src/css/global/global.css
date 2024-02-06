@@ -4,8 +4,12 @@
 @import url(./components/link.css);
 @import url(./components/title.css);
 @import url(./components/form.css);
+
 @import url(./typography/typography.css);
+
 @import url(./colors/colors.css);
+
+@import url(./animation/essentialAnimation.css);
 
 /* RESET INITIAL STYLES */
 body {

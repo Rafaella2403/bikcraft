@@ -36,17 +36,18 @@
     <main class="home-introduction-bg">
       <div class="home-introduction container">
         <div class="home-introduction-content">
-          <h1 class="font-1-xxl">Bicicletas feitas sob medida<span>.</span></h1>
-          <p class="font-2-l">
+          <h1 class="font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span>.</span></h1>
+          <p class="font-2-l fadeInDown" data-anime="400">
             Bicicletas elétricas de alta precisão e qualidade, 
             feitas sob medida para o cliente. Explore o mundo na 
             sua velocidade com a Bikcraft.
           </p>
-          <a class="button" href="./src/screens/bicycles.html">Selecione a sua</a>
+          <a class="button fadeInDown" href="./src/screens/bicycles.html" data-anime="600">Selecione a sua</a>
         </div>
-        <div>
+        <picture data-anime="800" class="fadeInDown">
+          <source media="(max-width: 800px)" srcset="./src/assets/img/bicycles/nimbus.jpg">
           <img src="./src/assets/img/picture/introducao.jpg" alt="Bicicleta Preta">
-        </div>
+        </picture>
       </div>
     </main>
 
@@ -226,6 +227,7 @@
       </div>
     </footer>
 
+    <script src="./src/js/plugins/simple-anime.js"></script>;
     <script src="./src/js/script.js"></script>
   </body>
 </html>
