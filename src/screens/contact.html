@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="Termos e condições"
+      content="Contato"
     >
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
-    <title>Temos e Condições | Bikcraft</title>
+    <title>Contato | Bikcraft</title>
   </head>
-  <body>
+  <body id="contact">
     <header class="header-bg">
       <div class="header container">
         <a href="../../index.html">
@@ -32,9 +32,57 @@
     <main>
       <div class="title-bg">
         <div class="title container">
-          <p class="font-2-l-b color-05">Temos de uso</p>
-          <h1 class="font-1-xxl color-00">Temos e Condições<span class="color-p5">.</span></h1>
+          <p class="font-2-l-b color-05">respostas em até 24h</p>
+          <h1 class="font-1-xxl color-00">nosso contato.<span class="color-p5">.</span></h1>
         </div>
+      </div>
+
+      <div class="contact container">
+        <section class="contact-data" aria-label="Endereço">
+          <h2 class="font-1-m color-00">Loja Online</h2>
+          <div class="contact-address font-2-s color-04">
+            <p>Rua Ali Perto, 35</p>
+            <p>Rio de Janeiro - RJ</p>
+            <p>Brasil - Terra - Vita Láctea</p>
+          </div>
+          <address class="contact-means font-2-s color-04">
+            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+            <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+            <a href="tel:+552199999999"> (21) 9 9999-9999</a>
+          </address>
+          <div class="contact-social-media">
+            <a href="./">
+              <img src="../assets/img/social-media/instagram-p.svg" alt="Instagram">
+            </a>
+            <a href="./">
+              <img src="../assets/img/social-media/facebook-p.svg" alt="Facebook">
+            </a>
+            <a href="./">
+              <img src="../assets/img/social-media/youtube-p.svg" alt="Youtube">
+            </a>
+          </div>
+        </section>
+        <section class="contact-form" aria-label="Formulário">
+          <form class="form" action="./contact.html">
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            </div>
+            <div>
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+            </div>
+            <div class="col-2">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="contato@email.com">
+            </div>
+            <div class="col-2">
+              <label for="mensagem">Mensagem</label>
+              <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+            </div>
+            <button class="button">Enviar Mensagem</button>
+          </form>
+        </section>
       </div>
     </main>
 
