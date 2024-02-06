@@ -43,3 +43,8 @@ gallery.forEach((picture) => {
   })
 });
 
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
