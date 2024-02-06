@@ -29,7 +29,7 @@
   display: inline-block;
   width: 12px;
   height: 8px;
-  background-color: var(--color-p1);
+  background-color: var(--color-p9);
 }
 
 .questions dt::after {
@@ -37,7 +37,7 @@
   display: inline-block;
   width: 14px;
   height: 6px;
-  background: url("../../img/icones/seta-abrir.svg");
+  background: url("../../assets/img/icons/seta-abrir.svg");
   transition: 0.3s;
 }
 
