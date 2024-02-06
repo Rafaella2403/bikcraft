@@ -48,3 +48,5 @@ if (window.SimpleAnime) {
   new SimpleAnime();
 }
 
+// Plugin externo
+new ClipboardJS('.home-introduction-content p');
