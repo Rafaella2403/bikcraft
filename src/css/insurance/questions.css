@@ -54,10 +54,13 @@
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
+}
+
+.js .questions dd {
   display: none;
 }
 
-.questions .active {
+.js .questions .active {
   display: block;
 }
 
