@@ -1,3 +1,5 @@
+@import url(./store.css);
+
 #contact {
   background: linear-gradient(var(--color-11) 600px, var(--color-01) 0px);
 
