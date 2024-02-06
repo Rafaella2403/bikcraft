@@ -24,8 +24,22 @@ questions.forEach((question) => {
     const isClassActive = response.classList.contains('active')
 
     question.setAttribute('aria-expanded', isClassActive)
-    
-
-
   })
 })
+
+// Alterando a ordem das imagens ao clicar em uma 
+const gallery = document.querySelectorAll('.bicycle-image img')
+const galleryContainer = document.querySelector('.bicycle-image')
+console.log(galleryContainer);
+
+gallery.forEach((picture) => {
+  picture.addEventListener('click', (event) => {
+    const img = event.currentTarget;
+    const media = matchMedia('(min-width: 1000px)').matches;
+
+    if (media) {
+      galleryContainer.prepend(img);
+    }
+  })
+});
+
